@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <h1>
-        ¡Conoce a tus Pokemones!
+        Pokemon - Por Tipo
       </h1>
         <PokemonFetcher />
     </>

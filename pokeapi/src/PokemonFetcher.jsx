@@ -15,7 +15,7 @@ const PokemonFetcher = () => {
 
   useEffect(() => {
     const fetchPokemonesPorTipo = async () => {
-      try {
+      try {n
         setCargando(true);
         setError(null);
         setPokemones([]);
