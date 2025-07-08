@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './PokemonFetcher.css'; 
+import './PokemonFetcher.css';
 
 const TIPOS_POKEMON = [
   'normal', 'fighting', 'flying', 'poison', 'ground', 'rock', 'bug',
@@ -15,7 +15,7 @@ const PokemonFetcher = () => {
 
   useEffect(() => {
     const fetchPokemonesPorTipo = async () => {
-      try {n
+      try {
         setCargando(true);
         setError(null);
         setPokemones([]);
