@@ -27,7 +27,7 @@ const PokemonFetcher = () => {
         const detalles = await Promise.all(
           pokemonsDeTipo.map(async (poke) => {
             const resp = await fetch(poke.url);
-            if (!resp.ok) throw new Error('No se pudo cargar un pokémon');
+            if (!resp.ok) throw new Error('No se pudo cargar un pokémons');
             const data = await resp.json();
             return {
               id: data.id,
